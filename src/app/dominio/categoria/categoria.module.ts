@@ -10,10 +10,11 @@ import { CategoriaListaComponent } from './categoria-lista/categoria-lista.compo
 import { CategoriaFormularioComponent } from './categoria-formulario/categoria-formulario.component';
 
 
-
 @NgModule({
     declarations: [
         //Componentes
+        CategoriaFormularioComponent,
+        CategoriaListaComponent
     ],
     imports: [
         // Angular
@@ -32,4 +33,4 @@ import { CategoriaFormularioComponent } from './categoria-formulario/categoria-f
     ]
 })
 
-export class ProdutoModule { }
+export class CategoriaModule { }
